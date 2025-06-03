@@ -74,7 +74,7 @@
         <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
         <input type="email" class="form-control" name="email" placeholder="Email">
         <input type="text" class="form-control" name="subjects" placeholder="Subjects Interested">
-        
+        <form action="https://formsubmit.co/eduworld000333@mail.com" method="POST">
      <h2>Select Your Subjects</h2>
   <form action="submit-form.php" method="post">
     <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label><br>
