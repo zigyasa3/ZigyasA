@@ -74,18 +74,17 @@
         <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
         <input type="email" class="form-control" name="email" placeholder="Email">
         <input type="text" class="form-control" name="subjects" placeholder="Subjects Interested">
-         <form>
-    <label for="subject">Choose a subject:</label>
-    <select id="subject" name="subject">
-      <option value="computer">Computer</option>
-      <option value="physics">Physics</option>
-      <option value="chemistry">Chemistry</option>
-      <option value="biology">Biology</option>
-      <option value="etc">ETC (Other Subjects)</option>
-    </select>
-
-    <br><br>
-    <input type="submit" value="Submit">
+         
+     <h2>Select Your Subjects</h2>
+  <form action="submit-form.php" method="post">
+    <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label><br>
+    <label><input type="checkbox" name="subjects[]" value="Physics"> Physics</label><br>
+    <label><input type="checkbox" name="subjects[]" value="Chemistry"> Chemistry </label>
+    <label><input type="checkbox" name="subjects[]" value="Math"> Mathematics</label><br>
+    <label><input type="checkbox" name="subjects[]" value="Biology"> Biology</label><br>
+    <label><input type="checkbox" name="subjects[]" value="English"> English</label><br>
+      <label><input type="checkbox" name="subjects[]" value="Other"> Other</label><br>
+ <br><br>
   </form>
         <button type="submit" class="btn btn-primary w-100">Submit</button>
       </form>
