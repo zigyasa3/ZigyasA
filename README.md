@@ -76,14 +76,14 @@
       <input type="email" class="form-control" name="email" placeholder="Email" required>
 
       <!-- Subjects -->
-      <h5>Select Your Subjects</h5>
+      <h5>Select Your Subjects</h5><br>
       <div class="mb-3">
-        <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label><br>
-        <label><input type="checkbox" name="subjects[]" value="Physics"> Physics</label><br>
-        <label><input type="checkbox" name="subjects[]" value="Chemistry"> Chemistry</label><br>
-        <label><input type="checkbox" name="subjects[]" value="Math"> Mathematics</label><br>
-        <label><input type="checkbox" name="subjects[]" value="Biology"> Biology</label><br>
-        <label><input type="checkbox" name="subjects[]" value="English"> English</label><br>
+        <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label>
+        <label><input type="checkbox" name="subjects[]" value="Physics"> Physics</label>
+        <label><input type="checkbox" name="subjects[]" value="Chemistry"> Chemistry</label>
+        <label><input type="checkbox" name="subjects[]" value="Math"> Mathematics</label>
+        <label><input type="checkbox" name="subjects[]" value="Biology"> Biology</label>
+        <label><input type="checkbox" name="subjects[]" value="English"> English</label>
         <label><input type="checkbox" name="subjects[]" value="Other"> Other</label>
       </div>
 
