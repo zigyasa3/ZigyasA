@@ -64,7 +64,14 @@
     <form action="https://formsubmit.co/eduworld000333@gmail.com" method="POST" enctype="multipart/form-data" class="registration-form">
       <!-- Basic Info -->
       <input type="text" class="form-control" name="fullname" placeholder="Full Name" required>
-      <input type="text" class="form-control" name="class" placeholder="Class" required>
+      <select class="form-control" name="class" required>
+  <option value="">Select Class</option>
+  <option value="8th">8th</option>
+  <option value="9th">9th</option>
+  <option value="10th">10th</option>
+  <option value="11th">11th</option>
+  <option value="12th">12th</option>
+</select>
       <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
       <input type="email" class="form-control" name="email" placeholder="Email" required>
 
