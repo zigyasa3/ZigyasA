@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Zigyasa Coaching Centre</title>
+  <title>ZigyasA Institute</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
@@ -61,7 +61,7 @@
   <section id="admission" class="section">
     <div class="container">
       <h2>Admission</h2>
-      <p>We offer admissions for students from Class 6 to 12 for all major subjects and entrance preparations.</p>
+      <p>We offer admissions for students from Class 8 to 12 for all SCIENCE major subjects and entrance preparations.</p>
     </div>
   </section>
 
@@ -82,7 +82,7 @@
   <section id="fee" class="section">
     <div class="container">
       <h2>Tuition Fee</h2>
-      <p>Monthly fees range from ₹1500 to ₹4000 depending on class and subject.</p>
+      <p>Monthly fees range from ₹200 to ₹1500 depending on class and subject.</p>
     </div>
   </section>
 
@@ -138,9 +138,9 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>Ravi</td><td>85</td><td>90</td><td>88</td></tr>
-          <tr><td>Neha</td><td>78</td><td>82</td><td>91</td></tr>
-          <tr><td>Ajay</td><td>92</td><td>88</td><td>84</td></tr>
+          <tr><td>Ankit</td><td>85</td><td>90</td><td>88</td></tr>
+          <tr><td>Abhay</td><td>78</td><td>82</td><td>91</td></tr>
+          <tr><td>Saurabh</td><td>92</td><td>88</td><td>84</td></tr>
         </tbody>
       </table>
     </div>
@@ -187,7 +187,7 @@
     function calculateFee() {
       const subjects = document.getElementById('subjects').value;
       const months = document.getElementById('months').value;
-      const feePerSubject = 1000;
+      const feePerSubject = 600;
       const total = subjects * months * feePerSubject;
       document.getElementById('feeResult').innerText = `Total Fee: ₹${total}`;
     }
