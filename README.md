@@ -152,7 +152,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="C:\Users\Ajeet\Desktop\zigyasa.html/z1.jpg" class="card-img-top" alt="Classroom">
+            <img src="C:\Users\Ajeet\Desktop\zigyasa.html/z1.jpg/300x200" class="card-img-top" alt="Classroom">
             <div class="card-body">Classroom Session</div>
           </div>
         </div>
@@ -175,7 +175,7 @@
   <section id="about" class="section bg-light">
     <div class="container">
       <h2>About Zigyasa Coaching Centre</h2>
-      <p>Founded in 2010, Zigyasa is committed to academic excellence and holistic development of students.</p>
+      <p>Founded in 20th June 2024, Zigyasa is committed to academic excellence and holistic development of students.</p>
     </div>
   </section>
 
@@ -187,7 +187,7 @@
     function calculateFee() {
       const subjects = document.getElementById('subjects').value;
       const months = document.getElementById('months').value;
-      const feePerSubject = 600;
+      const feePerSubject = 200;
       const total = subjects * months * feePerSubject;
       document.getElementById('feeResult').innerText = `Total Fee: ₹${total}`;
     }
