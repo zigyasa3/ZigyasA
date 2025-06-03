@@ -139,16 +139,15 @@
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th>Student</th>
-            <th>Math</th>
-            <th>Science</th>
-            <th>English</th>
+            <th>Students Name</th>
+            <th>Percentage</th>
+            <th>Rank in His School</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>Ankit</td><td>85</td><td>90</td><td>88</td></tr>
-          <tr><td>Abhay</td><td>78</td><td>82</td><td>91</td></tr>
-          <tr><td>Saurabh</td><td>92</td><td>88</td><td>84</td></tr>
+          <tr><td>Ankit</td><td>85</td><td>SVM Nagar untari</td></tr>
+          <tr><td>Abhay</td><td>78</td><td>SVM Nagar untari</td></tr>
+          <tr><td>Saurabh</td><td>92</td><td>SVM Nagar untari</td></tr>
         </tbody>
       </table>
     </div>
