@@ -31,7 +31,7 @@
 </head>
 <body>
   <header class="text-center py-4">
-    <h1>ZigyasA Institutee</h1>
+    <h1>ZigyasA Institute</h1>
     <p>Empowering Future through Education</p>
   </header>
 
@@ -74,7 +74,7 @@
         <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
         <input type="email" class="form-control" name="email" placeholder="Email">
         <input type="text" class="form-control" name="subjects" placeholder="Subjects Interested">
-        <form action="https://formsubmit.co/eduworld000333@mail.com" method="POST">
+        <form action="https://formsubmit.co/eduworld000333@gmail.com" method="POST">
      <h2>Select Your Subjects</h2>
   <form action="submit-form.php" method="post">
     <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label><br>
@@ -84,11 +84,8 @@
     <label><input type="checkbox" name="subjects[]" value="Biology"> Biology</label><br>
     <label><input type="checkbox" name="subjects[]" value="English"> English</label><br>
       <label><input type="checkbox" name="subjects[]" value="Other"> Other</label><br>
-  </form>
         <button type="submit" class="btn btn-primary w-100">Submit</button>
       </form>
-    </div>
-  </section>
 
   <section id="fee" class="section">
     <div class="container">
