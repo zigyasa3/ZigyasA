@@ -152,7 +152,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Classroom">
+            <img src="C:\Users\Ajeet\Desktop\zigyasa.html/z1.jpg" class="card-img-top" alt="Classroom">
             <div class="card-body">Classroom Session</div>
           </div>
         </div>
