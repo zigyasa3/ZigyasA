@@ -58,34 +58,36 @@
     </div>
   </nav>
 
-  <section id="admission" class="section">
-    <div class="container">
-      <h2>Admission</h2>
-      <p>We offer admissions for students from Class 8th to 12th for all SCIENCE major subjects and entrance preparations.</p>
-    </div>
-  </section>
-
   <section id="registration" class="section bg-light">
-    <div class="container">
-      <h2>Registration</h2>
-      <form action="submit.php" method="post" class="registration-form">
-        <input type="text" class="form-control" name="fullname" placeholder="Full Name" required>
-        <input type="text" class="form-control" name="class" placeholder="Class" required>
-        <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
-        <input type="email" class="form-control" name="email" placeholder="Email">
-        <input type="text" class="form-control" name="subjects" placeholder="Subjects Interested">
-        <form action="https://formsubmit.co/eduworld000333@gmail.com" method="POST">
-     <h2>Select Your Subjects</h2>
-  <form action="submit-form.php" method="post">
-    <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label><br>
-    <label><input type="checkbox" name="subjects[]" value="Physics"> Physics</label><br>
-    <label><input type="checkbox" name="subjects[]" value="Chemistry"> Chemistry </label><br>
-    <label><input type="checkbox" name="subjects[]" value="Math"> Mathematics</label><br>
-    <label><input type="checkbox" name="subjects[]" value="Biology"> Biology</label><br>
-    <label><input type="checkbox" name="subjects[]" value="English"> English</label><br>
-      <label><input type="checkbox" name="subjects[]" value="Other"> Other</label><br>
-        <button type="submit" class="btn btn-primary w-100">Submit</button>
-      </form>
+  <div class="container">
+    <h2>Registration</h2>
+    <form action="https://formsubmit.co/eduworld000333@gmail.com" method="POST" enctype="multipart/form-data" class="registration-form">
+      <!-- Basic Info -->
+      <input type="text" class="form-control" name="fullname" placeholder="Full Name" required>
+      <input type="text" class="form-control" name="class" placeholder="Class" required>
+      <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
+      <input type="email" class="form-control" name="email" placeholder="Email" required>
+
+      <!-- Subjects -->
+      <h5>Select Your Subjects</h5>
+      <div class="mb-3">
+        <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label><br>
+        <label><input type="checkbox" name="subjects[]" value="Physics"> Physics</label><br>
+        <label><input type="checkbox" name="subjects[]" value="Chemistry"> Chemistry</label><br>
+        <label><input type="checkbox" name="subjects[]" value="Math"> Mathematics</label><br>
+        <label><input type="checkbox" name="subjects[]" value="Biology"> Biology</label><br>
+        <label><input type="checkbox" name="subjects[]" value="English"> English</label><br>
+        <label><input type="checkbox" name="subjects[]" value="Other"> Other</label>
+      </div>
+
+      <!-- File Upload -->
+      <div class="mb-3">
+        <label for="photo">Upload Your Photo</label>
+        <input type="file" class="form-control" name="photo" accept="image/*" required>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="btn btn-primary w-100">Submit</button>
 
   <section id="fee" class="section">
     <div class="container">
