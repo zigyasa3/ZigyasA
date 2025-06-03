@@ -31,7 +31,7 @@
 </head>
 <body>
   <header class="text-center py-4">
-    <h1>Zigyasa Coaching Centre</h1>
+    <h1>ZigyasA Institutee</h1>
     <p>Empowering Future through Education</p>
   </header>
 
@@ -61,7 +61,7 @@
   <section id="admission" class="section">
     <div class="container">
       <h2>Admission</h2>
-      <p>We offer admissions for students from Class 8 to 12 for all SCIENCE major subjects and entrance preparations.</p>
+      <p>We offer admissions for students from Class 8th to 12th for all SCIENCE major subjects and entrance preparations.</p>
     </div>
   </section>
 
@@ -74,17 +74,16 @@
         <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
         <input type="email" class="form-control" name="email" placeholder="Email">
         <input type="text" class="form-control" name="subjects" placeholder="Subjects Interested">
-         
+        
      <h2>Select Your Subjects</h2>
   <form action="submit-form.php" method="post">
     <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label><br>
     <label><input type="checkbox" name="subjects[]" value="Physics"> Physics</label><br>
-    <label><input type="checkbox" name="subjects[]" value="Chemistry"> Chemistry </label>
+    <label><input type="checkbox" name="subjects[]" value="Chemistry"> Chemistry </label><br>
     <label><input type="checkbox" name="subjects[]" value="Math"> Mathematics</label><br>
     <label><input type="checkbox" name="subjects[]" value="Biology"> Biology</label><br>
     <label><input type="checkbox" name="subjects[]" value="English"> English</label><br>
       <label><input type="checkbox" name="subjects[]" value="Other"> Other</label><br>
- <br><br>
   </form>
         <button type="submit" class="btn btn-primary w-100">Submit</button>
       </form>
@@ -94,7 +93,7 @@
   <section id="fee" class="section">
     <div class="container">
       <h2>Tuition Fee</h2>
-      <p>Monthly fees range from ₹200 to ₹1500 depending on class and subject.</p>
+      <p>Monthly fees range from ₹200 to ₹1500, And also depending on class and subject.</p>
     </div>
   </section>
 
