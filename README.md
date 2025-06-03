@@ -74,9 +74,7 @@
 </select>
       <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
       <input type="email" class="form-control" name="email" placeholder="Email" required>
-
-  
-  <select class="form-control" name="Select Your Subject" required>
+  <select class="form-control" name="Subject" placeholder="Select Your Subject" required>
       <div class="mb-3">
         <label><input type="checkbox" name="subjects[]" value="Computer"> Computer</label>
         <label><input type="checkbox" name="subjects[]" value="Physics"> Physics</label>
